@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+//Componentes:
+import FirstComponent from './components/FirstComponent';
+import Template from './components/Template';
+import Events from './components/Events';
+import Challenge from './components/Challenge'
+//Arquivos CSS:
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "container">
+      <h1>Fundamentos REACT</h1>
+      <FirstComponent />
+      <Template />
+      <Events />
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <Challenge />
     </div>
   );
 }
